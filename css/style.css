@@ -390,11 +390,50 @@ nav .fa{
 
 /* -------Footer------ */
 
+.footer{
+   width: 100%;
+   text-align: center;
+   padding: 30px 0;
+   
+}
+.footer h4{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-weight: ;
+}
+
+.icon .fa{
+    color: #f44336;
+    margin: 14px 2px;
+    padding: 10px 14px;
+    cursor: pointer;
+}
+
+.icon .fa:hover{
+    background: red;
+    
+    color: white;
+}
+
+.fa-heart-o{
+    color: #f44336;
+}
 
 
-
-
-
+@media(max-width: 700px){
+    .footer{
+        width: 87%;
+        text-align: center;
+        padding: 30px 0;
+        margin: 0 5%;
+     }
+     .icon .fa{
+        color: #f44336;
+        margin: 13px 1px;
+        padding: 10px 13px;
+        cursor: pointer;
+    }
+}
 
 
 
@@ -407,7 +446,7 @@ nav .fa{
 /* utility classes */
 .h-primary{
     font-family: 'Bree Serif', serif;
-
+    
     font-size: 3.5rem;
     padding: 12px;
    
@@ -470,6 +509,7 @@ nav .fa{
 }
 
 .sub-heading{
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     color: #777;    
     font-weight: 300;
